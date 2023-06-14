@@ -16,12 +16,29 @@ function Middle()
     </div>
    )
 }
+function Card()
+{
+    return(
+        <div class="card">
+            <img src="katie-zaferes.jpg" className="card-photo"/>
+            <div className="card--stats">
+                <img src="star.png" />
+                <span>    5.0   </span>
+                <span>(6) • </span>
+                <span> USA </span>
+            </div>
+            <p>Life Lessons with Katie Zaferes</p>
+            <p>From $136 / person</p>  
+              </div>
+    )
+}
 function Page()
 {
     return (
         <div>
             <Navbar />
             <Middle />
+            <Card />
         </div>
     )
 }
