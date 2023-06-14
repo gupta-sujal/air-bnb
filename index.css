@@ -1,0 +1,19 @@
+.navimage
+{
+    display: flex;
+    height:60px;
+    background-color:palevioletred;
+    opacity:1;
+    padding:20px 40px;
+    box-shadow: 0 8px 8px -4px blueviolet;
+    margin-bottom: 5%;
+}
+.mesh
+{
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+   margin:5%;
+    margin:auto;
+    justify-content: space-around;
+}
